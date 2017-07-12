@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bg"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profileNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_weight="1"
+                android:hint="Name"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/profileEmailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Email Id"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/profileAgeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="AGE"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/profileQualificationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Qualification"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/profileNationalityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Nationaility"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/profileContactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Contact Number"
+                android:textSize="15sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileSignOutButton"
+                android:text="Sign Out"
+                android:layout_weight="1"
+                android:background="#cfcfcf"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_marginTop="25dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

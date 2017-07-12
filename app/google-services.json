@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "586305423375",
+    "firebase_url": "https://wise-monkeys-8e3c3.firebaseio.com",
+    "project_id": "wise-monkeys-8e3c3",
+    "storage_bucket": "wise-monkeys-8e3c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586305423375:android:e5de0c5d2feba3be",
+        "android_client_info": {
+          "package_name": "com.shray.wisemonkeys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586305423375-9dsriltm9qgm2nv77t5v6087vu3h9g98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shray.wisemonkeys",
+            "certificate_hash": "4fc55f44a14d2b4905c9243af3a178e8fc5d6e00"
+          }
+        },
+        {
+          "client_id": "586305423375-16rp6ok6i0ub0gr2mmmk12goulciup64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwhIEw2OWrJ8E__nugaJa1tKC5GsT0aXs"
+        },
+        {
+          "current_key": "AIzaSyCn50gCQXfKN3eFAiQ3_raHbI1IFCHVPJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586305423375-16rp6ok6i0ub0gr2mmmk12goulciup64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586305423375:android:95a84a65e58a124a",
+        "android_client_info": {
+          "package_name": "com.shray.wisemonkeysstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586305423375-eaqvkn226h8lo4ts1bmcelnpmdn0becq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shray.wisemonkeysstudent",
+            "certificate_hash": "4fc55f44a14d2b4905c9243af3a178e8fc5d6e00"
+          }
+        },
+        {
+          "client_id": "586305423375-16rp6ok6i0ub0gr2mmmk12goulciup64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwhIEw2OWrJ8E__nugaJa1tKC5GsT0aXs"
+        },
+        {
+          "current_key": "AIzaSyCn50gCQXfKN3eFAiQ3_raHbI1IFCHVPJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586305423375-16rp6ok6i0ub0gr2mmmk12goulciup64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

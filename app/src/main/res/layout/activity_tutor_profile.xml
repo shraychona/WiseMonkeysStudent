@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tutorProfileNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_weight="1"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/tutorProfileAgeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="AGE"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tutorProfileQualificationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Qualification"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tutorProfileNationalityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Nationaility"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tutorProfileLanguageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Language "
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tutorProfileDistanceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Distance "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tutorProfileRatingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Rating "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/tutorProfileLangugeLevelSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/languageLanguageSpinner"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tutorProfileKnowYourLevelButton"
+                android:text="Know Your Level"
+                android:background="#cfcfcf"
+                android:textColor="#333333"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/tutorProfileProceedButton"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:background="#cfcfcf"
+                android:textColor="#333333"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:text="Send Request "/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
